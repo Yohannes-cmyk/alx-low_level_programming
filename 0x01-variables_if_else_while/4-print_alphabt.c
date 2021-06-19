@@ -5,11 +5,11 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	int a;
+	int n;
 	
-	for (a='a';a<='z';a++){
-		if (a != 'q' && a != 'e')
-			putchar(a);
+	for (n='a';n<='z';n++){
+		if (n != 'q' && n != 'e')
+			putchar(n);
 	}
 	putchar(10);
 	return (0);
