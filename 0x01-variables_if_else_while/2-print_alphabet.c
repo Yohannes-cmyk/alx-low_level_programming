@@ -8,7 +8,6 @@
  * Return: 0 for success
  */
 
-
 int main()
 {
   int ch;
