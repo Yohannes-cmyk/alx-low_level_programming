@@ -1,17 +1,19 @@
-File Edit Options Buffers Tools C Help
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ *
+ * Return: 0 for success
+ */
 int main(void)
 {
-        int n;
+	int n = 'a';
 
-        for (n='a';n<='z';n++){
-                if (n!='q' && n!='e')
-		  putchar(n);
-        }
-        putchar(10);
-        return (0);
+	for ( ; n <= 'z' ; n++)
+	{
+		if (n != 'q' && n != 'e')
+			putchar(n);
+	}
+	putchar(10);
+	return (0);
 }
