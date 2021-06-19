@@ -2,12 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-int main(void)
+int main()
 {
   int ch;
-  for(ch='a',ch <= 'z',ch++)
-    {
+  for (ch='a';ch <= 'z';ch++)
       putchar(a);
-    }
   return(0);
 }
