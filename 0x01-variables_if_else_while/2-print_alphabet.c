@@ -5,12 +5,14 @@
  *
  * Return: 0 for success
  */
-
-int main()
+int main(void)
 {
-  int ch;
-  for (ch = 'a';ch <= 'z'; ch++)
-      putchar(ch);
-  putchar(10);
-  return(0);
+	int n = 97;
+
+	for ( ; n <= 122 ; n++)
+	{
+		putchar(n);
+	}
+	putchar(10);
+	return (0);
 }
