@@ -3,14 +3,16 @@
 /**
  * main - Entry point
  *
- * return: 0 for success
+ * Return: 0 for success
  */
 int main(void)
 {
-	for (int n = 'z' ; n >= 'a' ; n--)
+	int n = 'z';
+
+	for ( ; n >= 'a' ; n--)
 	{
 		putchar(n);
 	}
-	putchar(n);
+	putchar(10);
 	return (0);
 }
