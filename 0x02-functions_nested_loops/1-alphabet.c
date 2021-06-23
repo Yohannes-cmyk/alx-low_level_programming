@@ -6,15 +6,13 @@
  * Return: Always 0 (Success)
  */
 
-int print_alphabet()
+void print_alphabet(void)
 {
-  int num = 0;
-    while(num<=26)
+    int n = 'a';
+    while(n <= 'z')
     {
-      putchar(num);
-      num++;
+        _putchar(n);
+        n++;
     }
-        putchar('\n');
-       return(0);
-
+    _putchar(10);
 }
