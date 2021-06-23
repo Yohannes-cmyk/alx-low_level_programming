@@ -1,20 +1,20 @@
 #include "holberton.h"
 
 /**
- * main - Printing the lower case of the alphabets
- *@n = characters 
- *on every loop of the while it prints out the letter and increment by one until the argument is false (z<=z)
- * Return: Always 0 (Success)
+ * print_alphabet - Print alphabet
+ *
+ * Return: (void)
+ *
  */
 
 void print_alphabet(void)
 {
-  int n = 'a';
+	char sh = 'a';
 
-  while(n <= 'z')
-    {
-        _putchar(n);
-        n++;
-    }
-    _putchar(10);
+	while (sh <= 'z')
+	{
+		_putchar(sh);
+		sh++;
+	}
+	_putchar('\n');
 }
