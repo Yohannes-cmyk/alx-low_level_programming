@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * _isdigit - checks if there is any digit by evaluating the ascii code of the character
- * @a: the character to be checked. 
- *Return 1 if its digit and return 0 if not. 
+ * _isdigit - Checks for digit character
+ * @c: - The character to be checked
+ * Return: 1 for digit, 0 for anything else
  */
 
 int _isdigit(int c)
